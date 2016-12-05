@@ -1,0 +1,62 @@
+{
+  "name": "crossgate",
+  "version": "0.0.1",
+  "description": "crossgate on html5",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "keywords": [
+    "crossgate",
+    "html5",
+    "es6",
+    "phaser"
+  ],
+  "author": "aspirin2d@outlook.com",
+  "license": "ISC",
+  "dependencies": {
+    "hammerjs": "^2.0.8",
+    "js-yaml": "^3.6.1",
+    "phaser": "^2.4.8",
+    "three": "^0.82.1"
+  },
+  "xo": {
+    "esnext": true,
+    "env": [
+      "node",
+      "browser"
+    ],
+    "rules": {
+      "curly": 0,
+      "keyword-spacing": 0,
+      "guard-for-in": 0
+    },
+    "space": true,
+    "semicolon": false,
+    "globals": [
+      "Phaser",
+      "$"
+    ],
+    "ignores": [
+      "static/filters/pixi/*.js"
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.12.8",
+    "browserify": "^13.0.1",
+    "del": "^2.2.0",
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-react": "^5.1.1",
+    "exorcist": "^0.4.0",
+    "gulp": "^3.9.1",
+    "gulp-buffer": "0.0.2",
+    "gulp-if": "^2.0.1",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "vinyl-source-stream": "^1.1.0",
+    "xo": "^0.15.1"
+  }
+}
